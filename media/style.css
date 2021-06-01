@@ -1,0 +1,246 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+}
+.contain-all{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.main{
+    -ms-flex-direction: row;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    gap: 50px;
+}
+.flexx{
+    width:40% ;
+    height: 450px;
+    border-radius:7px ;
+    -ms-flex-item-align: center;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.imag{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+footer{
+    width: 100%;
+    height: 190px;
+    background-color:purple;
+    margin-top: 4%;
+    text-align: center;
+    color: white;
+}
+.pa{
+    padding: 10px;
+}
+nav{
+    display: flex;
+    float: right;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 30px;
+    margin-top: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+nav ul li a:hover{
+    color:white;
+}
+.btn1{
+    background-color:white;
+    width: 30%px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 100px;
+    margin-top: 8px;
+    color:purple;
+}
+.btn1:hover{
+    background-color:purple;
+    color:white;
+    border: 2px solid white;
+    transition: 1s;
+}
+.menu{
+    width: 40%;
+    background-color: coral;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+button{
+    width: 120px;
+    height: 30px;
+    padding: 0px 5px;
+    background-color:purple;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+.text{
+    color: purple;
+    margin: 5px;
+}
+.hed{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -7px;
+}
+.pa{
+    margin-top: -17px;
+    font-size: 13px;
+    color:black;
+    font-family: monospace;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+.link a{
+    text-decoration: none;
+    color: grey;
+    border-bottom:1px solid purple ;
+}
+.link a:hover{
+    background-color: purple;
+    color: white;
+    border-radius: 3px;
+    padding: 4px;
+}
+.sus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2{
+    background-color: white;
+    margin-top: 4px;
+    width: 28.5%;
+    color:purple;
+}
+.email1{
+    width: 27%;
+    padding: 0.5%;
+    outline: none;
+}
+.paa{
+    font-size: 15px;
+    margin-top: 4px;
+}
+.paaa{
+    margin-top: 5px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+.blog h3{
+    color:purple;
+}
+.line{
+    width: 7%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: purple;
+    margin-top: -15px;
+
+}
+@media screen and (max-width:768px;) {
+    .contain-all{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .main{
+        -ms-flex-direction: row;
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2%;
+        gap: 50px;
+    }
+    .flexx{
+        width:40%;
+        height: 500px;
+        border-radius:7px ;
+        -ms-flex-item-align: center;
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+    .imag{
+        width: 100%;
+        height: 45%;
+        object-fit: cover;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    .inside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+    .blog{
+        justify-content: center;
+        margin:0 auto;
+        margin-left: -10%;
+    }
+    .blog h3{
+        color:purple;
+        font-size: 15px;
+    }
+    .line{
+        width: 4%;
+        height: 2px;
+        margin: 0 auto;
+        background-color: purple;
+        margin-top: -15px;
+    
+    }
+    
+}
